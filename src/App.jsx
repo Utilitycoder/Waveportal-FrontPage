@@ -19,7 +19,7 @@ const App = () => {
       }
       
       /*
-      * Check if we're authorized to access the user's wallet
+      *
       */
       const accounts = await ethereum.request({ method: 'eth_accounts' });
       
